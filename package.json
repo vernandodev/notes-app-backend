@@ -1,0 +1,16 @@
+{
+  "name": "notes-app-back-end",
+  "version": "1.0.0",
+  "description": "example notes app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notesapp",
+    "nodejs",
+    "hapi"
+  ],
+  "author": "vernandodev",
+  "license": "ISC"
+}

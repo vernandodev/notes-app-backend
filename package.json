@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "notesapp",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -12,7 +14,8 @@
   },
   "keywords": [
     "nodejs",
-    "eslint"
+    "eslint",
+    "hapi"
   ],
   "author": "vernandodev",
   "license": "ISC",
@@ -24,5 +27,8 @@
     "eslint": "^8.18.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2"
   }
 }

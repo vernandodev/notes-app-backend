@@ -13,6 +13,8 @@
     "rules": {
         "linebreak-style": 0,
         "semi": ["error", "always"],
-        "quotes": ["error", "double"]
+        "quotes": ["error", "double"],
+        "indent": "off",
+        "no-console": "off"
     }
 }

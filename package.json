@@ -1,21 +1,28 @@
 {
   "name": "notes-app-back-end",
   "version": "1.0.0",
-  "description": "example notes app",
+  "description": "notesapp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vernandodev/notes-app-back-end.git"
   },
   "keywords": [
-    "notesapp",
     "nodejs",
-    "hapi"
+    "eslint"
   ],
   "author": "vernandodev",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vernandodev/notes-app-back-end/issues"
+  },
+  "homepage": "https://github.com/vernandodev/notes-app-back-end#readme",
   "devDependencies": {
     "eslint": "^8.18.0",
-    "nodemon": "^2.0.16"
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
   }
 }

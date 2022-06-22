@@ -15,7 +15,8 @@
   "keywords": [
     "nodejs",
     "eslint",
-    "hapi"
+    "hapi",
+    "nanoid"
   ],
   "author": "vernandodev",
   "license": "ISC",
@@ -29,6 +30,7 @@
     "eslint-plugin-import": "^2.26.0"
   },
   "dependencies": {
-    "@hapi/hapi": "^20.2.2"
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^4.0.0"
   }
 }

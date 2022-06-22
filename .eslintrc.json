@@ -13,8 +13,9 @@
     "rules": {
         "linebreak-style": 0,
         "semi": ["error", "always"],
-        "quotes": ["error", "double"],
+        "quotes": ["error", "single"],
         "indent": "off",
-        "no-console": "off"
+        "no-console": "off",
+        "consistent-return": "off"
     }
 }

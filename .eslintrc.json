@@ -16,6 +16,12 @@
         "quotes": ["error", "single"],
         "indent": "off",
         "no-console": "off",
-        "consistent-return": "off"
+        "consistent-return": "off",
+        "settings": {
+            "import/extensions": [
+              ".js",
+              ".jsx"
+            ]
+          }
     }
 }

@@ -1,11 +1,11 @@
 import { nanoid } from 'nanoid';
-import notes from './notes';
+import notes from './notes.js';
 
 const addNoteHandler = (request, h) => {
-    const { title, tags, body } = request.payload;
+    const { title, tags, body } = request.payload; // payload dari hapi
 
     const id = nanoid(16);
-    const createdAt = new Date().toString();
+    const createdAt = new Date().toISOString();
     const updatedAt = createdAt;
 
     const newNotes = {
@@ -27,6 +27,15 @@ const addNoteHandler = (request, h) => {
         response.code(201);
         return response;
     }
+
+    const response = h.response({
+        status: 'fail',
+        message: 'catatan gagal ditambahkan',
+    });
+
+    response.code(500);
+
+    return response;
 };
 
-export default { addNoteHandler };
+export default addNoteHandler;

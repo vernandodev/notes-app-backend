@@ -38,4 +38,11 @@ const addNoteHandler = (request, h) => {
     return response;
 };
 
+export const getAllNotesHandler = () => ({
+    status: 'success',
+    data: {
+        notes,
+    }
+});
+
 export default addNoteHandler;
